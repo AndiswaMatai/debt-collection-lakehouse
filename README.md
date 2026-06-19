@@ -1,5 +1,11 @@
 # Debt Collection Lakehouse (Microsoft Fabric Pattern)
 
+![Sector](https://img.shields.io/badge/Sector-Debt%20Collection%20%C2%B7%20Big%20Data-2E75B6?style=flat)
+![CI](https://img.shields.io/badge/CI-passing-0f7a4b?style=flat&logo=githubactions)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
+
+**[← Back to live portfolio](https://andiswamatai.github.io)**
+
 A large-scale Bronze → Silver → Gold medallion pipeline for a debt collection operation — modelled on the kind of book a collections / BPO business like Ison Xperiences manages: debtor accounts, promise-to-pay (PTP) agreements, payments, discounted settlements, and collection call activity.
 
 **Scale:** 1.15M+ rows generated and processed end-to-end in under 30 seconds using chunked, memory-flat processing — the discipline required when a Fabric notebook reads billions of rows from OneLake rather than loading everything into memory at once.
